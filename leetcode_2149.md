@@ -27,3 +27,7 @@ class Solution(object):
         return res
 
 ```
+## output 🖥️
+```
+[3,-2,1,-5,2,-4]
+```
