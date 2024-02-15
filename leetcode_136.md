@@ -16,7 +16,7 @@ singleNumber([4,1,2,1,2])
 ```
 ## Output
 ```
-1
+4
 ```
 ## Explaination
 
