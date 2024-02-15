@@ -20,7 +20,7 @@ singleNumber([4,1,2,1,2])
 ```
 ## Explaination
 
-##### NOTE -> As we see from the question except one element, remaining elements repeats twice. Above code won't work  if element repeats more than twice.
+##### NOTE -> As we see from the question except one element, remaining elements repeats twice. Above code won't work  if element's are  repeats odd number of times.
 
  let us understand XOR(^) operator
 
