@@ -14,7 +14,7 @@ def singleNumber(nums):
 
 singleNumber([4,1,2,1,2])
 ```
-## Output
+## Output 🖥️
 ```
 4
 ```
