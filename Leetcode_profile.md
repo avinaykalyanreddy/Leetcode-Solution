@@ -1,4 +1,4 @@
-# Unlocking Problem-Solving Skills: My LeetCode Adventure
+# Unlocking Problems-Solving Skills: My LeetCode Adventure
 [![LeetCode](https://img.shields.io/badge/LeetCode-avinaykalyanreddy-7C8BC7?style=for-the-badge&logo=leetcode)](https://leetcode.com/avinaykalyanreddy/)
 
 
