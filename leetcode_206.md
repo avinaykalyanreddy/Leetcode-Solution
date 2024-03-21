@@ -2,7 +2,7 @@
 
 **Reverse linked list**. Click on the link to view the [question](https://leetcode.com/problems/reverse-linked-list/description/)  
 
-<img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif?cid=790b76116dksp1lj18yfvjqxe22lrdsdqmpcxcmjldsmb1dx&ep=v1_gifs_search&rid=giphy.gif&ct=g" height="150" width="1000">  
+<img src="https://i.pinimg.com/736x/cc/01/40/cc014030afd5a3e5283ee0c175e36362.jpg" height="150" width="1000">  
 
 ```python
 
