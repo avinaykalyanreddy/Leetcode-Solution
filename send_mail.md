@@ -29,6 +29,17 @@ def home():
         recipients=['avinaykalyanreddy@gmail.com'],
         body="This is a test email using send_message."
   )
+ """
+or
+    msg = Message('Hello', sender='godsons12072004@outlook.com', recipients=['avinaykalyan@gmail.com'])
+    msg.body = "Hello Flask message sent from Flask-Mail"
+    
+
+    # Send email
+    mail.send(msg)
+    return "Sent"
+
+"""
 
   return "Email sent!"
 if __name__ == '__main__':
