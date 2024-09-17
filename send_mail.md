@@ -1,3 +1,10 @@
+
+### sending mail to users using flask_mail module import Mail class and pass the object Flask(__name__)
+
+* note dont pass password directly
+
+```python
+
 import getpass
 
 from flask import *
@@ -18,11 +25,12 @@ def home():
 
   mail.send_message(  
         subject='Hello from Flask-Mail',
-        sender='your_email@outlook.com',
-        recipients=['recipient@example.com'],
+        sender='godsons12072004@outlook.com',
+        recipients=['avinaykalyanreddy@gmail.com'],
         body="This is a test email using send_message."
   )
 
   return "Email sent!"
 if __name__ == '__main__':
     app.run(debug=True)
+```
