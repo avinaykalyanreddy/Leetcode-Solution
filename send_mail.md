@@ -31,7 +31,7 @@ def home():
   )
  """
 or
-    msg = Message('Hello', sender='godsons12072004@outlook.com', recipients=['avinaykalyan@gmail.com'])
+    msg = Message('Hello', sender='godsons12072004@outlook.com', recipients=['avinaykalyan@gmail.com'],html=html_content)
     msg.body = "Hello Flask message sent from Flask-Mail"
     
 
