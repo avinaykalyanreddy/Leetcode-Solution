@@ -4,28 +4,30 @@ Two sum. Click on the link to view the [Question](https://leetcode.com/problems/
 
 ### Python
 
+
+
 ```python
 
-def twoSum(nums,target):
-
-    dic = {}
-    for i in range(len(nums)):
-        if nums[i] not in dic:
-            dic[nums[i]] = [i]
-        else:
-              dic[nums[i]].append(i)
-
-    for i in nums:
-        if target-i in dic:
-
-              if i == target-i and len(dic[i])  != 1:
-                     return [dic[i].pop(),dic[i].pop()]
-              elif i != target-i:
-                     return [dic[i].pop(),dic[target-i].pop()]
-
-twoSum(nums = [3,2,4], target = 6)
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+      
+      dic = {}
+      
+      for i in range(len(nums)):
+          
+          dic[nums[i]] = i
+          
+          
+      for  k in range(len(nums)):
+          
+          x = target - nums[k]
+          
+          if x in dic and k != dic[x]:
+              
+              return [k,dic[x]]
 
 ```
+
 ### Output  🖥️
 ```
 [1,2]
